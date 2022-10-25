@@ -45,6 +45,7 @@ header nav ul li {
 a {
     color: var(--tertiary-color);
     text-decoration: none;
+    display: block;
 }
 header nav ul li a:hover {
     background: var(--primary-color);
@@ -54,8 +55,8 @@ header nav ul li a:hover {
 }
 p {
     font-size: 24px;
+    color: var(--tertiary-color);
     padding: 5px 35px 0 20px;
-    width: 50%;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -76,6 +77,7 @@ section {
     width: 100%;
     display: flex;
 }
+
 .section-title {
     font-size: 48px;
     display: inline-block;
@@ -104,6 +106,8 @@ section {
 }
 img {
     border: 5px solid var(--tertiary-color);
+    
+      
 }
 .bottom-left {
     position: absolute;
@@ -115,6 +119,61 @@ img {
     color: #ffffff;
     background-color: var(--tertiary-color);
 }
+
+.secondary-content {
+    width: 80%;
+    margin: 0 auto;
+    color: var(--primary-color)
+}
+.secondary-content h2 {
+    font-size: 30px;
+    margin: 20px 0;
+    text-align: center;
+    color: var(--tertiary-color);
+    padding: 10px;
+    border-bottom: 5px solid;
+    border-color: var(--primary-color);
+}
+.secondary-content h3 {
+    font-size: 25px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.secondary-content h4 {
+    font-size: 25px;
+    margin: 18px 0;
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+}
+.experience-item {
+    font-size: 25px;
+    margin: 18px 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.secondary-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+.secondary-content ul {
+    margin: 15px 20px;
+}
+.secondary-content li {
+    color: var(--primary-color);
+    margin: 10px 0;
+}
+.secondary-content h5 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media screen and (max-width: 980px) {
     header {
       padding-bottom: 0;
@@ -137,6 +196,7 @@ img {
       font-size: 20px;
     }
     p {
+        color: var(--tertiary-color);
         flex: 2 100%;
         text-align: left;
         justify-content: left;
@@ -149,7 +209,9 @@ img {
     }
     .section-detail {
         flex-direction: column;
+        
     }
+   
     .section-title {
         font-size: 48px;
         text-align: center;
@@ -160,13 +222,14 @@ img {
         margin: 0;
     }
     p {
+        color: var(--tertiary-color);
         flex-direction: column;
         justify-content: center;
         display: contents;
         padding: 10px
     }
     .profile-pic {
-        justify-content: center;
+        width: 500px;
     }
     .item-detail {
       flex: 2 100%;
