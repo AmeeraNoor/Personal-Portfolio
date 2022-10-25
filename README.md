@@ -18,3 +18,5 @@ When I resize the page or view the site on various screens and devices I am pres
 
 https://ameeranoor.github.io/ameeras-first-profile/
 Link to Repo: https://github.com/AmeeraNoor/ameeras-first-profile.git
+
+![image](https://user-images.githubusercontent.com/114899256/197689129-83fc4558-ba0e-4114-9047-dc087795856a.png)
